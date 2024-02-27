@@ -25,6 +25,9 @@ public class Interface {
                 break;
             }
         }
+        if (!bm.destaparCelda(fila, col)) {
+            System.out.println("Perdiste");
+        }
     }
 
     public static void main(String[] args) {
